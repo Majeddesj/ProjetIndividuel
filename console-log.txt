@@ -1,0 +1,1056 @@
+:buildSrc:extractPrecompiledScriptPluginPlugins UP-TO-DATE
+:buildSrc:generateExternalPluginSpecBuilders UP-TO-DATE
+:buildSrc:compilePluginsBlocks UP-TO-DATE
+:buildSrc:generatePrecompiledScriptPluginAccessors UP-TO-DATE
+:buildSrc:configurePrecompiledScriptDependenciesResolver
+:buildSrc:generateScriptPluginAdapters UP-TO-DATE
+:buildSrc:compileKotlin UP-TO-DATE
+:buildSrc:compileJava NO-SOURCE
+:buildSrc:compileGroovy NO-SOURCE
+:buildSrc:pluginDescriptors UP-TO-DATE
+:buildSrc:processResources UP-TO-DATE
+:buildSrc:classes UP-TO-DATE
+:buildSrc:inspectClassesForKotlinIC UP-TO-DATE
+:buildSrc:jar UP-TO-DATE
+:buildSrc:assemble UP-TO-DATE
+:buildSrc:compileTestKotlin NO-SOURCE
+:buildSrc:pluginUnderTestMetadata UP-TO-DATE
+:buildSrc:compileTestJava NO-SOURCE
+:buildSrc:compileTestGroovy NO-SOURCE
+:buildSrc:processTestResources NO-SOURCE
+:buildSrc:testClasses UP-TO-DATE
+:buildSrc:test NO-SOURCE
+:buildSrc:validatePlugins UP-TO-DATE
+:buildSrc:check UP-TO-DATE
+:buildSrc:build UP-TO-DATE
+:assemble UP-TO-DATE
+:checkstyleNohttp
+:dependencies:assemble UP-TO-DATE
+:junit-platform-commons:compileJava UP-TO-DATE
+:junit-jupiter-api:processResources NO-SOURCE
+:documentation:processResources NO-SOURCE
+:junit-jupiter-params:processResources NO-SOURCE
+:junit-jupiter:processResources NO-SOURCE
+:dependencies:spotlessCheck UP-TO-DATE
+:junit-platform-engine:processResources NO-SOURCE
+:dependencies:check UP-TO-DATE
+:dependencies:build UP-TO-DATE
+:junit-jupiter-engine:processResources UP-TO-DATE
+:junit-jupiter-api:processMainRelease9Resources NO-SOURCE
+:documentation:processMainRelease9Resources NO-SOURCE
+:junit-jupiter-params:processMainRelease9Resources NO-SOURCE
+:junit-jupiter:processMainRelease9Resources NO-SOURCE
+:junit-platform-engine:processMainRelease9Resources NO-SOURCE
+:junit-jupiter-migrationsupport:processResources NO-SOURCE
+:junit-jupiter-engine:processMainRelease9Resources NO-SOURCE
+:junit-platform-launcher:processResources NO-SOURCE
+:junit-platform-reporting:processResources NO-SOURCE
+:junit-platform-console:processResources UP-TO-DATE
+:junit-platform-suite-api:compileJava UP-TO-DATE
+:junit-jupiter-migrationsupport:processMainRelease9Resources NO-SOURCE
+:junit-platform-launcher:processMainRelease9Resources NO-SOURCE
+:junit-platform-reporting:processMainRelease9Resources NO-SOURCE
+:junit-platform-console:processMainRelease9Resources NO-SOURCE
+:junit-platform-runner:processResources NO-SOURCE
+:junit-platform-testkit:processResources NO-SOURCE
+:junit-vintage-engine:processResources UP-TO-DATE
+:documentation:processTestResources UP-TO-DATE
+:junit-bom:assemble UP-TO-DATE
+:junit-bom:spotlessCheck UP-TO-DATE
+:junit-bom:check UP-TO-DATE
+:junit-bom:build UP-TO-DATE
+:junit-jupiter:sourcesJar UP-TO-DATE
+:junit-platform-runner:processMainRelease9Resources NO-SOURCE
+:junit-platform-testkit:processMainRelease9Resources NO-SOURCE
+:junit-vintage-engine:processMainRelease9Resources NO-SOURCE
+:junit-jupiter-api:sourcesJar UP-TO-DATE
+:junit-jupiter-engine:sourcesJar
+:junit-jupiter-migrationsupport:sourcesJar UP-TO-DATE
+:junit-jupiter-params:sourcesJar UP-TO-DATE
+:junit-jupiter:processTestResources NO-SOURCE
+:junit-jupiter:osgiProperties
+:junit-platform-suite-api:processResources NO-SOURCE
+:junit-platform-suite-api:classes UP-TO-DATE
+:junit-platform-suite-api:compileMainRelease9Java NO-SOURCE
+:junit-platform-console:sourcesJar UP-TO-DATE
+:junit-platform-commons:processResources NO-SOURCE
+:junit-platform-commons:classes UP-TO-DATE
+:junit-platform-commons:compileMainRelease9Java UP-TO-DATE
+:junit-platform-suite-api:processMainRelease9Resources NO-SOURCE
+:junit-platform-suite-api:mainRelease9Classes UP-TO-DATE
+:junit-platform-suite-api:compileModule UP-TO-DATE
+:junit-platform-suite-api:allMainClasses UP-TO-DATE
+:junit-platform-suite-api:jar
+:junit-platform-commons:processMainRelease9Resources NO-SOURCE
+:junit-platform-commons:mainRelease9Classes UP-TO-DATE
+:junit-platform-commons:compileModule UP-TO-DATE
+:junit-jupiter-params:processTestResources UP-TO-DATE
+:junit-jupiter-migrationsupport:processTestResources UP-TO-DATE
+:junit-jupiter-api:processTestFixturesResources NO-SOURCE
+:junit-jupiter-params:osgiProperties
+:junit-jupiter-migrationsupport:osgiProperties
+:junit-jupiter-api:processTestResources NO-SOURCE
+:junit-jupiter-api:osgiProperties
+:junit-platform-console:processTestResources NO-SOURCE
+:junit-platform-commons:allMainClasses UP-TO-DATE
+:junit-platform-console:osgiProperties
+:junit-platform-console-standalone:processResources NO-SOURCE
+:junit-platform-commons:jar
+:junit-platform-engine:sourcesJar UP-TO-DATE
+:junit-platform-launcher:sourcesJar UP-TO-DATE
+:junit-platform-console-standalone:processMainRelease9Resources NO-SOURCE
+:junit-platform-reporting:sourcesJar UP-TO-DATE
+:junit-platform-console-standalone:sourcesJar UP-TO-DATE
+:junit-platform-engine:processTestFixturesResources NO-SOURCE
+:junit-platform-engine:processTestResources NO-SOURCE
+:junit-platform-console-standalone:processTestResources NO-SOURCE
+:junit-platform-engine:osgiProperties
+:junit-platform-console-standalone:osgiProperties
+:junit-platform-reporting:processTestResources NO-SOURCE
+:junit-platform-reporting:osgiProperties
+:junit-platform-launcher:processTestFixturesResources NO-SOURCE
+:junit-platform-runner:sourcesJar UP-TO-DATE
+:junit-platform-launcher:processTestResources NO-SOURCE
+:junit-platform-testkit:sourcesJar UP-TO-DATE
+:junit-platform-launcher:osgiProperties
+:junit-vintage-engine:sourcesJar UP-TO-DATE
+:junit-platform-runner:processTestResources NO-SOURCE
+:junit-platform-runner:osgiProperties
+:platform-tests:compileJava NO-SOURCE
+:platform-tests:processResources NO-SOURCE
+:junit-platform-testkit:processTestResources NO-SOURCE
+:platform-tests:classes UP-TO-DATE
+:platform-tooling-support-tests:compileJava FROM-CACHE
+:junit-platform-testkit:osgiProperties
+:platform-tests:compileMainRelease9Java NO-SOURCE
+:junit-vintage-engine:processTestResources UP-TO-DATE
+:platform-tests:processMainRelease9Resources NO-SOURCE
+:platform-tests:mainRelease9Classes UP-TO-DATE
+:platform-tests:allMainClasses UP-TO-DATE
+:junit-vintage-engine:osgiProperties
+:platform-tests:jar SKIPPED
+:platform-tests:assemble UP-TO-DATE
+:platform-tests:processTestResources UP-TO-DATE
+:platform-tests:processJmhResources NO-SOURCE
+:platform-tests:checkstyleMain NO-SOURCE
+:platform-tests:checkstyleMainRelease9 NO-SOURCE
+:junit-jupiter-engine:processTestResources UP-TO-DATE
+:junit-jupiter-engine:osgiProperties
+:junit-platform-suite-api:javadoc UP-TO-DATE
+:junit-platform-suite-api:javadocJar UP-TO-DATE
+:junit-platform-suite-api:sourcesJar UP-TO-DATE
+:junit-platform-suite-api:assemble
+:junit-platform-suite-api:checkstyleMain UP-TO-DATE
+:junit-platform-suite-api:checkstyleMainRelease9 NO-SOURCE
+:junit-platform-suite-api:compileTestJava NO-SOURCE
+:junit-platform-suite-api:processTestResources NO-SOURCE
+:junit-platform-suite-api:testClasses UP-TO-DATE
+:junit-platform-suite-api:checkstyleTest NO-SOURCE
+:junit-platform-suite-api:test NO-SOURCE
+:junit-platform-suite-api:osgiProperties
+:junit-jupiter-api:compileKotlin UP-TO-DATE
+:junit-platform-engine:compileJava UP-TO-DATE
+:junit-platform-commons:javadoc FROM-CACHE
+:junit-platform-suite-api:verifyOSGi
+:junit-platform-engine:classes UP-TO-DATE
+:junit-platform-engine:compileMainRelease9Java NO-SOURCE
+:junit-platform-engine:mainRelease9Classes UP-TO-DATE
+:junit-platform-engine:compileModule UP-TO-DATE
+:junit-platform-engine:allMainClasses UP-TO-DATE
+:junit-platform-engine:jar
+:junit-jupiter-api:compileJava UP-TO-DATE
+:junit-jupiter-api:classes UP-TO-DATE
+:junit-jupiter-api:compileMainRelease9Kotlin NO-SOURCE
+:junit-jupiter-api:compileMainRelease9Java NO-SOURCE
+:junit-jupiter-api:mainRelease9Classes UP-TO-DATE
+:junit-jupiter-api:compileModule UP-TO-DATE
+:junit-jupiter-api:allMainClasses UP-TO-DATE
+:junit-jupiter-api:inspectClassesForKotlinIC UP-TO-DATE
+:junit-jupiter-api:jar
+:junit-platform-launcher:compileJava UP-TO-DATE
+:junit-vintage-engine:compileJava UP-TO-DATE
+:junit-platform-engine:javadoc FROM-CACHE
+:junit-vintage-engine:classes UP-TO-DATE
+:junit-vintage-engine:compileMainRelease9Java NO-SOURCE
+:junit-vintage-engine:mainRelease9Classes UP-TO-DATE
+:junit-vintage-engine:compileModule UP-TO-DATE
+:junit-platform-launcher:classes UP-TO-DATE
+:junit-platform-launcher:compileMainRelease9Java NO-SOURCE
+:junit-platform-launcher:mainRelease9Classes UP-TO-DATE
+:junit-platform-launcher:compileModule UP-TO-DATE
+:junit-vintage-engine:allMainClasses UP-TO-DATE
+:junit-vintage-engine:jar
+:junit-platform-launcher:allMainClasses UP-TO-DATE
+:junit-platform-launcher:jar
+:documentation:compileKotlin UP-TO-DATE
+:junit-jupiter-params:compileKotlin UP-TO-DATE
+:documentation:compileJava UP-TO-DATE
+:junit-jupiter-params:compileJava UP-TO-DATE
+:junit-jupiter-engine:compileKotlin UP-TO-DATE
+:documentation:classes UP-TO-DATE
+:documentation:compileMainRelease9Kotlin NO-SOURCE
+:junit-jupiter-migrationsupport:compileJava UP-TO-DATE
+:documentation:compileMainRelease9Java NO-SOURCE
+:documentation:mainRelease9Classes UP-TO-DATE
+:documentation:allMainClasses UP-TO-DATE
+:documentation:inspectClassesForKotlinIC
+:documentation:jar SKIPPED
+:documentation:assemble UP-TO-DATE
+:documentation:checkstyleMain FROM-CACHE
+:junit-jupiter-migrationsupport:classes UP-TO-DATE
+:junit-jupiter-migrationsupport:compileMainRelease9Java NO-SOURCE
+:junit-jupiter-migrationsupport:mainRelease9Classes UP-TO-DATE
+:junit-jupiter-migrationsupport:compileModule UP-TO-DATE
+:junit-jupiter-params:classes UP-TO-DATE
+:junit-jupiter-params:compileMainRelease9Kotlin NO-SOURCE
+:junit-jupiter-params:compileMainRelease9Java NO-SOURCE
+:junit-jupiter-params:mainRelease9Classes UP-TO-DATE
+:junit-jupiter-params:compileModule UP-TO-DATE
+:junit-jupiter-migrationsupport:allMainClasses UP-TO-DATE
+:junit-jupiter-migrationsupport:jar
+:junit-jupiter-engine:compileJava UP-TO-DATE
+:junit-jupiter-params:allMainClasses UP-TO-DATE
+:junit-jupiter-params:inspectClassesForKotlinIC UP-TO-DATE
+:junit-jupiter-params:shadowJar
+:junit-jupiter-engine:compileGroovy NO-SOURCE
+:junit-jupiter-engine:classes UP-TO-DATE
+:junit-jupiter-engine:compileMainRelease9Kotlin NO-SOURCE
+:junit-jupiter-engine:compileMainRelease9Java NO-SOURCE
+:junit-jupiter-engine:compileMainRelease9Groovy NO-SOURCE
+:junit-jupiter-engine:mainRelease9Classes UP-TO-DATE
+:junit-jupiter-engine:compileModule UP-TO-DATE
+:junit-platform-reporting:compileJava UP-TO-DATE
+:junit-jupiter-engine:allMainClasses UP-TO-DATE
+:junit-jupiter-engine:inspectClassesForKotlinIC UP-TO-DATE
+:junit-jupiter-engine:jar
+:junit-platform-reporting:classes UP-TO-DATE
+:junit-platform-reporting:compileMainRelease9Java NO-SOURCE
+:junit-platform-reporting:mainRelease9Classes UP-TO-DATE
+:junit-platform-reporting:compileModule UP-TO-DATE
+:junit-platform-reporting:allMainClasses UP-TO-DATE
+:junit-platform-reporting:jar
+:junit-platform-runner:compileJava UP-TO-DATE
+:junit-platform-runner:classes UP-TO-DATE
+:junit-platform-runner:compileMainRelease9Java NO-SOURCE
+:junit-platform-runner:mainRelease9Classes UP-TO-DATE
+:junit-platform-runner:compileModule UP-TO-DATE
+:junit-platform-runner:allMainClasses UP-TO-DATE
+:junit-platform-runner:jar
+:junit-platform-console:compileJava UP-TO-DATE
+:junit-platform-console:classes UP-TO-DATE
+:junit-platform-console:compileMainRelease9Java UP-TO-DATE
+:junit-platform-console:mainRelease9Classes UP-TO-DATE
+:junit-platform-console:compileModule UP-TO-DATE
+:junit-platform-testkit:compileJava UP-TO-DATE
+:junit-platform-console:allMainClasses UP-TO-DATE
+:junit-platform-console:shadowJar
+:junit-platform-testkit:classes UP-TO-DATE
+:junit-platform-testkit:compileMainRelease9Java NO-SOURCE
+:junit-platform-testkit:mainRelease9Classes UP-TO-DATE
+:junit-platform-testkit:compileModule UP-TO-DATE
+:junit-platform-testkit:allMainClasses UP-TO-DATE
+:junit-platform-testkit:jar
+:junit-jupiter-api:javadoc UP-TO-DATE
+:junit-jupiter-engine:javadoc FROM-CACHE
+:junit-jupiter-api:javadocJar UP-TO-DATE
+:junit-jupiter-api:assemble
+:junit-jupiter-api:checkstyleMain UP-TO-DATE
+:junit-jupiter-api:checkstyleMainRelease9 NO-SOURCE
+:junit-jupiter-api:compileTestFixturesKotlin UP-TO-DATE
+:junit-jupiter-api:compileTestFixturesJava UP-TO-DATE
+:junit-jupiter-api:testFixturesClasses UP-TO-DATE
+:junit-jupiter-api:testFixturesJar UP-TO-DATE
+:junit-jupiter-api:compileTestKotlin NO-SOURCE
+:junit-jupiter-api:compileTestJava NO-SOURCE
+:junit-jupiter-api:testClasses UP-TO-DATE
+:junit-jupiter-api:checkstyleTest NO-SOURCE
+:junit-jupiter-api:checkstyleTestFixtures UP-TO-DATE
+:junit-jupiter-api:test NO-SOURCE
+:junit-jupiter-api:verifyOSGi
+:documentation:checkstyleMainRelease9 NO-SOURCE
+:junit-jupiter-migrationsupport:javadoc FROM-CACHE
+:junit-platform-launcher:javadoc FROM-CACHE
+:junit-platform-commons:javadocJar
+:junit-platform-commons:sourcesJar
+:junit-platform-commons:assemble
+:junit-platform-commons:checkstyleMain FROM-CACHE
+:junit-platform-engine:javadocJar
+:junit-platform-commons:checkstyleMainRelease9 FROM-CACHE
+:junit-platform-engine:assemble
+:junit-platform-engine:checkstyleMain FROM-CACHE
+:junit-platform-commons:compileTestJava NO-SOURCE
+:junit-platform-commons:processTestResources NO-SOURCE
+:junit-platform-commons:testClasses UP-TO-DATE
+:junit-platform-commons:checkstyleTest NO-SOURCE
+:junit-platform-commons:test NO-SOURCE
+:junit-platform-commons:osgiProperties
+:junit-platform-commons:verifyOSGi
+:junit-jupiter-migrationsupport:javadocJar
+:junit-jupiter-engine:javadocJar
+:junit-platform-reporting:javadoc FROM-CACHE
+:junit-jupiter-migrationsupport:assemble
+:junit-jupiter-migrationsupport:checkstyleMain FROM-CACHE
+:junit-platform-launcher:javadocJar
+:junit-jupiter-engine:assemble
+:junit-jupiter-engine:checkstyleMain FROM-CACHE
+:junit-platform-launcher:assemble
+:junit-platform-launcher:checkstyleMain FROM-CACHE
+:junit-platform-engine:checkstyleMainRelease9 NO-SOURCE
+:junit-platform-engine:compileTestFixturesJava FROM-CACHE
+:junit-jupiter-migrationsupport:checkstyleMainRelease9 NO-SOURCE
+:junit-jupiter-migrationsupport:verifyOSGi
+:junit-platform-console:jar SKIPPED
+:junit-platform-console:javadoc FROM-CACHE
+:junit-jupiter-engine:checkstyleMainRelease9 NO-SOURCE
+:junit-jupiter-engine:compileTestKotlin FROM-CACHE
+:junit-platform-runner:javadoc FROM-CACHE
+:junit-jupiter-params:jar SKIPPED
+:junit-jupiter:compileJava NO-SOURCE
+:junit-jupiter:classes UP-TO-DATE
+:junit-jupiter:compileMainRelease9Java NO-SOURCE
+:junit-jupiter:mainRelease9Classes UP-TO-DATE
+:junit-jupiter:compileModule UP-TO-DATE
+:junit-jupiter-migrationsupport:compileTestJava FROM-CACHE
+:junit-jupiter:allMainClasses UP-TO-DATE
+:junit-jupiter:jar
+:junit-jupiter-params:javadoc FROM-CACHE
+:documentation:compileTestKotlin FROM-CACHE
+:junit-jupiter:javadoc NO-SOURCE
+:junit-jupiter:javadocJar UP-TO-DATE
+:junit-jupiter:assemble
+:junit-jupiter:checkstyleMain NO-SOURCE
+:junit-jupiter:checkstyleMainRelease9 NO-SOURCE
+:junit-jupiter:compileTestJava NO-SOURCE
+:junit-jupiter:testClasses UP-TO-DATE
+:junit-jupiter:checkstyleTest NO-SOURCE
+:junit-jupiter:test NO-SOURCE
+:junit-jupiter:verifyOSGi
+:junit-jupiter-migrationsupport:testClasses UP-TO-DATE
+:junit-jupiter-migrationsupport:checkstyleTest FROM-CACHE
+:junit-platform-console-standalone:compileJava NO-SOURCE
+:junit-platform-console-standalone:classes UP-TO-DATE
+:junit-platform-console-standalone:compileMainRelease9Java NO-SOURCE
+:junit-platform-console-standalone:mainRelease9Classes UP-TO-DATE
+:junit-platform-console-standalone:allMainClasses UP-TO-DATE
+:junit-platform-console-standalone:shadowJar
+:junit-platform-console:javadocJar
+:junit-platform-console:assemble
+:junit-platform-console:checkstyleMain FROM-CACHE
+:documentation:compileTestJava FROM-CACHE
+:junit-platform-console:checkstyleMainRelease9 FROM-CACHE
+:junit-jupiter-engine:compileTestJava FROM-CACHE
+:junit-jupiter-migrationsupport:test FROM-CACHE
+:junit-jupiter-params:javadocJar
+:junit-platform-console:compileTestJava NO-SOURCE
+:junit-platform-console:testClasses UP-TO-DATE
+:junit-platform-console:checkstyleTest NO-SOURCE
+:junit-platform-console:test NO-SOURCE
+:junit-platform-console:verifyOSGi
+:junit-platform-engine:testFixturesClasses UP-TO-DATE
+:junit-platform-engine:testFixturesJar UP-TO-DATE
+:junit-jupiter-params:assemble
+:junit-jupiter-params:checkstyleMain FROM-CACHE
+:junit-platform-engine:compileTestJava NO-SOURCE
+:junit-platform-engine:testClasses UP-TO-DATE
+:junit-platform-engine:checkstyleTest NO-SOURCE
+:junit-platform-engine:checkstyleTestFixtures FROM-CACHE
+:junit-platform-launcher:checkstyleMainRelease9 NO-SOURCE
+:junit-platform-launcher:compileTestFixturesJava FROM-CACHE
+:junit-platform-engine:test NO-SOURCE
+:junit-platform-engine:verifyOSGi
+:junit-platform-reporting:javadocJar
+:junit-platform-launcher:testFixturesClasses UP-TO-DATE
+:junit-platform-launcher:testFixturesJar UP-TO-DATE
+:junit-platform-launcher:compileTestJava NO-SOURCE
+:junit-platform-launcher:testClasses UP-TO-DATE
+:junit-platform-launcher:checkstyleTest NO-SOURCE
+:junit-platform-launcher:checkstyleTestFixtures FROM-CACHE
+:junit-platform-reporting:assemble
+:junit-platform-reporting:checkstyleMain FROM-CACHE
+:junit-jupiter-migrationsupport:test_4_12 FROM-CACHE
+:junit-platform-launcher:test NO-SOURCE
+:junit-platform-launcher:verifyOSGi
+:documentation:testClasses UP-TO-DATE
+:documentation:checkstyleTest FROM-CACHE
+:junit-jupiter-params:checkstyleMainRelease9 NO-SOURCE
+:junit-jupiter-params:compileTestKotlin FROM-CACHE
+:junit-platform-runner:javadocJar
+:junit-platform-testkit:javadoc FROM-CACHE
+:junit-jupiter-engine:compileTestGroovy FROM-CACHE
+:junit-platform-runner:assemble
+:junit-platform-runner:checkstyleMain FROM-CACHE
+:documentation:consoleLauncherTest
+:junit-jupiter-params:compileTestJava FROM-CACHE
+:junit-platform-reporting:checkstyleMainRelease9 NO-SOURCE
+:junit-platform-reporting:compileTestJava NO-SOURCE
+:junit-platform-reporting:testClasses UP-TO-DATE
+:junit-platform-reporting:checkstyleTest NO-SOURCE
+:junit-platform-reporting:test NO-SOURCE
+:junit-platform-reporting:verifyOSGi
+:junit-jupiter-params:testClasses UP-TO-DATE
+:junit-jupiter-params:checkstyleTest FROM-CACHE
+:junit-jupiter-engine:testClasses UP-TO-DATE
+:junit-jupiter-engine:checkstyleTest FROM-CACHE
+:junit-vintage-engine:javadoc FROM-CACHE
+:junit-platform-runner:checkstyleMainRelease9 NO-SOURCE
+:junit-platform-runner:compileTestJava NO-SOURCE
+:junit-platform-runner:testClasses UP-TO-DATE
+:junit-platform-runner:checkstyleTest NO-SOURCE
+:junit-platform-runner:test NO-SOURCE
+:junit-platform-runner:test_4_12 NO-SOURCE
+:junit-platform-runner:verifyOSGi
+:junit-jupiter-engine:test FROM-CACHE
+:platform-tests:compileTestJava FROM-CACHE
+:junit-platform-testkit:javadocJar
+:junit-platform-testkit:assemble
+:junit-platform-testkit:checkstyleMain FROM-CACHE
+:junit-jupiter-params:test FROM-CACHE
+:spotlessDocumentation
+:junit-platform-testkit:checkstyleMainRelease9 NO-SOURCE
+:junit-platform-testkit:compileTestJava NO-SOURCE
+:junit-platform-testkit:testClasses UP-TO-DATE
+:junit-platform-testkit:checkstyleTest NO-SOURCE
+:junit-platform-testkit:test NO-SOURCE
+:junit-platform-testkit:verifyOSGi
+:junit-vintage-engine:javadocJar
+:junit-vintage-engine:assemble
+:junit-vintage-engine:checkstyleMain FROM-CACHE
+:platform-tooling-support-tests:processResources NO-SOURCE
+:platform-tooling-support-tests:classes UP-TO-DATE
+:platform-tooling-support-tests:compileMainRelease9Java NO-SOURCE
+:platform-tooling-support-tests:processMainRelease9Resources NO-SOURCE
+:platform-tooling-support-tests:mainRelease9Classes UP-TO-DATE
+:platform-tooling-support-tests:allMainClasses UP-TO-DATE
+:platform-tooling-support-tests:jar SKIPPED
+:platform-tooling-support-tests:assemble UP-TO-DATE
+:platform-tooling-support-tests:checkstyleMain FROM-CACHE
+:junit-jupiter-params:verifyOSGi
+:platform-tooling-support-tests:checkstyleMainRelease9 NO-SOURCE
+:platform-tooling-support-tests:compileTestJava FROM-CACHE
+:junit-jupiter-engine:verifyOSGi
+:platform-tests:testClasses UP-TO-DATE
+:platform-tests:compileJmhJava FROM-CACHE
+:junit-vintage-engine:checkstyleMainRelease9 NO-SOURCE
+:platform-tooling-support-tests:processTestResources
+:junit-vintage-engine:compileTestJava FROM-CACHE
+:platform-tooling-support-tests:testClasses
+:platform-tooling-support-tests:checkstyleTest FROM-CACHE
+:junit-platform-console-standalone:jar SKIPPED
+:junit-platform-console-standalone:javadoc NO-SOURCE
+:junit-platform-console-standalone:javadocJar UP-TO-DATE
+:junit-platform-console-standalone:assemble UP-TO-DATE
+:junit-platform-console-standalone:checkstyleMain NO-SOURCE
+:junit-platform-console-standalone:checkstyleMainRelease9 NO-SOURCE
+:junit-platform-console-standalone:compileTestJava NO-SOURCE
+:junit-platform-console-standalone:testClasses UP-TO-DATE
+:junit-platform-console-standalone:checkstyleTest NO-SOURCE
+:junit-platform-console-standalone:test NO-SOURCE
+:junit-platform-console-standalone:verifyOSGi
+:platform-tooling-support-tests:test SKIPPED
+:junit-vintage-engine:testClasses UP-TO-DATE
+:junit-vintage-engine:checkstyleTest FROM-CACHE
+:platform-tests:jmhClasses UP-TO-DATE
+:platform-tests:checkstyleJmh FROM-CACHE
+:junit-vintage-engine:test FROM-CACHE
+:platform-tests:checkstyleTest FROM-CACHE
+:junit-vintage-engine:test_4_12 FROM-CACHE
+:spotlessDocumentationCheck
+:spotlessMisc
+:junit-vintage-engine:verifyOSGi
+:platform-tests:test FROM-CACHE
+
+Thanks for using JUnit! Support its development at https://junit.org/sponsoring
+
+[36m╷[0m
+[36m├─[0m [36mJUnit Jupiter[0m [32m✔[0m
+[36m│  ├─[0m [36mTestReporterDemo[0m [32m✔[0m
+[36m│  │  ├─[0m [34mreportSingleValue(TestReporter)[0m [32m✔[0m
+[36m│  │  │     [0m2020-02-15T11:27:14.210909 [33mvalue[0m = `[32ma status message[0m`
+[36m│  │  ├─[0m [34mreportMultipleKeyValuePairs(TestReporter)[0m [32m✔[0m
+[36m│  │  │     [0m2020-02-15T11:27:14.230204
+[36m│  │  │     [0m   [33muser name[0m = `[32mdk38[0m`
+[36m│  │  │     [0m   [33maward year[0m = `[32m1974[0m`
+[36m│  │  └─[0m [34mreportKeyValuePair(TestReporter)[0m [32m✔[0m
+[36m│  │        [0m2020-02-15T11:27:14.234696 [33ma key[0m = `[32ma value[0m`
+[36m│  ├─[0m [36mIgnoreIOExceptionTests[0m [32m✔[0m
+[36m│  │  ├─[0m [34mshouldFail()[0m [32m✔[0m
+[36m│  │  └─[0m [34mshouldSucceed()[0m [32m✔[0m
+[36m│  ├─[0m [36mKotlinWebServerDemo[0m [32m✔[0m
+[36m│  │  └─[0m [34mgetProductList()[0m [32m✔[0m
+[36m│  ├─[0m [36mDynamicTestsDemo[0m [32m✔[0m
+[36m│  │  ├─[0m [36mgenerateRandomNumberOfTests()[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34minput:27[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34minput:48[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34minput:83[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34minput:47[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34minput:18[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34minput:43[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34minput:90[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34minput:10[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34minput:81[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34minput:95[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34minput:94[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34minput:87[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34minput:89[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34minput:81[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34minput:86[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34minput:24[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34minput:30[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34minput:22[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34minput:17[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34minput:12[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34minput:97[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34minput:44[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34minput:25[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34minput:64[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34minput:34[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34minput:11[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34minput:30[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34minput:13[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34minput:39[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34minput:32[0m [32m✔[0m
+[36m│  │  │  └─[0m [34minput:22[0m [32m✔[0m
+[36m│  │  ├─[0m [36mdynamicTestsFromCollection()[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34m1st dynamic test[0m [32m✔[0m
+[36m│  │  │  └─[0m [34m2nd dynamic test[0m [32m✔[0m
+[36m│  │  ├─[0m [36mdynamicTestsFromArray()[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34m7th dynamic test[0m [32m✔[0m
+[36m│  │  │  └─[0m [34m8th dynamic test[0m [32m✔[0m
+[36m│  │  ├─[0m [36mdynamicTestsFromIterator()[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34m5th dynamic test[0m [32m✔[0m
+[36m│  │  │  └─[0m [34m6th dynamic test[0m [32m✔[0m
+[36m│  │  ├─[0m [36mdynamicTestsFromIterable()[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34m4th dynamic test[0m [32m✔[0m
+[36m│  │  │  └─[0m [34m3rd dynamic test[0m [32m✔[0m
+[36m│  │  ├─[0m [36mdynamicTestsFromStream()[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34mmom[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34mdad[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34mracecar[0m [32m✔[0m
+[36m│  │  │  └─[0m [34mradar[0m [32m✔[0m
+[36m│  │  ├─[0m [36mdynamicTestsFromIntStream()[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34mtest6[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34mtest8[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34mtest10[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34mtest12[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34mtest14[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34mtest16[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34mtest18[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34mtest0[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34mtest2[0m [32m✔[0m
+[36m│  │  │  └─[0m [34mtest4[0m [32m✔[0m
+[36m│  │  ├─[0m [36mdynamicNodeSingleContainer()[0m [32m✔[0m
+[36m│  │  │  └─[0m [36mpalindromes[0m [32m✔[0m
+[36m│  │  │     ├─[0m [34mracecar[0m [32m✔[0m
+[36m│  │  │     ├─[0m [34mradar[0m [32m✔[0m
+[36m│  │  │     ├─[0m [34mmom[0m [32m✔[0m
+[36m│  │  │     └─[0m [34mdad[0m [32m✔[0m
+[36m│  │  ├─[0m [36mdynamicNodeSingleTest()[0m [32m✔[0m
+[36m│  │  │  └─[0m [34m'pop' is a palindrome[0m [32m✔[0m
+[36m│  │  └─[0m [36mdynamicTestsWithContainers()[0m [32m✔[0m
+[36m│  │     ├─[0m [36mContainer A[0m [32m✔[0m
+[36m│  │     │  ├─[0m [34mnot null[0m [32m✔[0m
+[36m│  │     │  └─[0m [36mproperties[0m [32m✔[0m
+[36m│  │     │     ├─[0m [34mlength > 0[0m [32m✔[0m
+[36m│  │     │     └─[0m [34mnot empty[0m [32m✔[0m
+[36m│  │     ├─[0m [36mContainer B[0m [32m✔[0m
+[36m│  │     │  ├─[0m [34mnot null[0m [32m✔[0m
+[36m│  │     │  └─[0m [36mproperties[0m [32m✔[0m
+[36m│  │     │     ├─[0m [34mlength > 0[0m [32m✔[0m
+[36m│  │     │     └─[0m [34mnot empty[0m [32m✔[0m
+[36m│  │     └─[0m [36mContainer C[0m [32m✔[0m
+[36m│  │        ├─[0m [34mnot null[0m [32m✔[0m
+[36m│  │        └─[0m [36mproperties[0m [32m✔[0m
+[36m│  │           ├─[0m [34mlength > 0[0m [32m✔[0m
+[36m│  │           └─[0m [34mnot empty[0m [32m✔[0m
+[36m│  ├─[0m [36mBrokenLifecycleMethodConfigDemo[0m [32m✔[0m
+[36m│  │  └─[0m [34mtestDatabaseFunctionality()[0m [32m✔[0m
+[36m│  ├─[0m [36mKotlinAssertionsDemo[0m [32m✔[0m
+[36m│  │  ├─[0m [34mgrouped assertions from a collection()[0m [32m✔[0m
+[36m│  │  ├─[0m [34mexception absence testing()[0m [32m✔[0m
+[36m│  │  ├─[0m [34mgrouped assertions()[0m [32m✔[0m
+[36m│  │  ├─[0m [34mexpected exception testing()[0m [32m✔[0m
+[36m│  │  ├─[0m [34mtimeout not exceeded testing()[0m [32m✔[0m
+[36m│  │  ├─[0m [34mtimeout exceeded with preemptive termination()[0m [32m✔[0m
+[36m│  │  └─[0m [34mgrouped assertions from a stream()[0m [32m✔[0m
+[36m│  ├─[0m [36mWebServerDemo[0m [32m✔[0m
+[36m│  │  └─[0m [34mgetProductList()[0m [32m✔[0m
+[36m│  ├─[0m [36mOrderedTestsDemo[0m [32m✔[0m
+[36m│  │  ├─[0m [34mnullValues()[0m [32m✔[0m
+[36m│  │  ├─[0m [34memptyValues()[0m [32m✔[0m
+[36m│  │  └─[0m [34mvalidValues()[0m [32m✔[0m
+[36m│  ├─[0m [36mTimingExtensionTests[0m [32m✔[0m
+[36m│  │  ├─[0m [34msleep50ms()[0m [32m✔[0m
+[36m│  │  └─[0m [34msleep20ms()[0m [32m✔[0m
+[36m│  ├─[0m [36mAssumptionsDemo[0m [32m✔[0m
+[36m│  │  ├─[0m [33mtestOnlyOnCiServer()[0m [33m■[0m [31mAssumption failed: assumption is not true[0m
+[36m│  │  ├─[0m [34mtestInAllEnvironments()[0m [32m✔[0m
+[36m│  │  └─[0m [33mtestOnlyOnDeveloperWorkstation()[0m [33m■[0m [31mAssumption failed: Aborting test: not on developer workstation[0m
+[36m│  ├─[0m [36mStringTests[0m [32m✔[0m
+[36m│  │  ├─[0m [34mvalueDoesNotEqualNull()[0m [32m✔[0m
+[36m│  │  ├─[0m [34mvalueEqualsItself()[0m [32m✔[0m
+[36m│  │  ├─[0m [34mvalueDoesNotEqualDifferentValue()[0m [32m✔[0m
+[36m│  │  ├─[0m [34mreturnsZeroWhenComparedToItself()[0m [32m✔[0m
+[36m│  │  ├─[0m [34mreturnsPositiveNumberWhenComparedToSmallerValue()[0m [32m✔[0m
+[36m│  │  └─[0m [34mreturnsNegativeNumberWhenComparedToLargerValue()[0m [32m✔[0m
+[36m│  ├─[0m [36mExternalMethodSourceDemo[0m [32m✔[0m
+[36m│  │  └─[0m [36mtestWithExternalMethodSource(String)[0m [32m✔[0m
+[36m│  │     ├─[0m [34m[1] tinyString=.[0m [32m✔[0m
+[36m│  │     ├─[0m [34m[2] tinyString=oo[0m [32m✔[0m
+[36m│  │     └─[0m [34m[3] tinyString=OOO[0m [32m✔[0m
+[36m│  ├─[0m [36mPollingTimeoutDemo[0m [32m✔[0m
+[36m│  │  └─[0m [34mpollUntil()[0m [32m✔[0m
+[36m│  ├─[0m [36mDisplayNameGeneratorDemo[0m [32m✔[0m
+[36m│  │  ├─[0m [36mA year is not supported[0m [32m✔[0m
+[36m│  │  │  ├─[0m [36mA negative value for year is not supported by the leap year computation.[0m [32m✔[0m
+[36m│  │  │  │  ├─[0m [34mFor example, year -1 is not supported.[0m [32m✔[0m
+[36m│  │  │  │  └─[0m [34mFor example, year -4 is not supported.[0m [32m✔[0m
+[36m│  │  │  └─[0m [34mif it is zero[0m [32m✔[0m
+[36m│  │  └─[0m [36mA year is a leap year...[0m [32m✔[0m
+[36m│  │     ├─[0m [34mA year is a leap year if it is divisible by 4 but not by 100.[0m [32m✔[0m
+[36m│  │     └─[0m [36mA year is a leap year if it is one of the following years.[0m [32m✔[0m
+[36m│  │        ├─[0m [34mYear 2016 is a leap year.[0m [32m✔[0m
+[36m│  │        ├─[0m [34mYear 2020 is a leap year.[0m [32m✔[0m
+[36m│  │        └─[0m [34mYear 2048 is a leap year.[0m [32m✔[0m
+[36m│  ├─[0m [36mConditionalTestExecutionDemo[0m [32m✔[0m
+[36m│  │  ├─[0m [34mnotOnJava9()[0m [32m✔[0m
+[36m│  │  ├─[0m [34mfromJava9to11()[0m [32m✔[0m
+[36m│  │  ├─[0m [34mfromJava8To11()[0m [32m✔[0m
+[36m│  │  ├─[0m [34monLinuxOrMac()[0m [32m✔[0m
+[36m│  │  ├─[0m [34monlyOnMacOs()[0m [32m✔[0m
+[36m│  │  ├─[0m [35monlyOnJava8()[0m [35m↷[0m [35mDisabled on JRE version: 11.0.5[0m
+[36m│  │  ├─[0m [35mnotFromJava9toCurrentJavaFeatureNumber()[0m [35m↷[0m [35mDisabled on JRE version: 11.0.5[0m
+[36m│  │  ├─[0m [34monlyOn64BitArchitectures()[0m [32m✔[0m
+[36m│  │  ├─[0m [34mfromJava9toCurrentJavaFeatureNumber()[0m [32m✔[0m
+[36m│  │  ├─[0m [35monlyOnStagingServer()[0m [35m↷[0m [35mEnvironment variable [ENV] does not exist[0m
+[36m│  │  ├─[0m [34mnotOnCiServer()[0m [32m✔[0m
+[36m│  │  ├─[0m [35monJava9Or10()[0m [35m↷[0m [35mDisabled on JRE version: 11.0.5[0m
+[36m│  │  ├─[0m [34mtestOnMac()[0m [32m✔[0m
+[36m│  │  ├─[0m [35mnotFromJava9to11()[0m [35m↷[0m [35mDisabled on JRE version: 11.0.5[0m
+[36m│  │  ├─[0m [35mnotFromJava8to11()[0m [35m↷[0m [35mDisabled on JRE version: 11.0.5[0m
+[36m│  │  ├─[0m [34mnotOnDeveloperWorkstation()[0m [32m✔[0m
+[36m│  │  └─[0m [34mnotOnWindows()[0m [32m✔[0m
+[36m│  ├─[0m [36mHamcrestAssertionsDemo[0m [32m✔[0m
+[36m│  │  └─[0m [34massertWithHamcrestMatcher()[0m [32m✔[0m
+[36m│  ├─[0m [36mEngineTestKitStatisticsDemo[0m [32m✔[0m
+[36m│  │  ├─[0m [34mverifyJupiterContainerStats()[0m [32m✔[0m
+[36m│  │  └─[0m [34mverifyJupiterTestStats()[0m [32m✔[0m
+[36m│  ├─[0m [36mEngineTestKitAllEventsDemo[0m [32m✔[0m
+[36m│  │  └─[0m [34mverifyAllJupiterEvents()[0m [32m✔[0m
+[36m│  ├─[0m [36mA special test case[0m [32m✔[0m
+[36m│  │  ├─[0m [34m😱[0m [32m✔[0m
+[36m│  │  ├─[0m [34mCustom test name containing spaces[0m [32m✔[0m
+[36m│  │  └─[0m [34m╯°□°）╯[0m [32m✔[0m
+[36m│  ├─[0m [36mUsingTheLauncherDemo[0m [32m✔[0m
+[36m│  │  ├─[0m [34mdiscovery()[0m [32m✔[0m
+[36m│  │  ├─[0m [34mlauncherConfig()[0m [32m✔[0m
+[36m│  │  └─[0m [34mexecution()[0m [32m✔[0m
+[36m│  ├─[0m [36mJUnitPlatformClassDemo[0m [32m✔[0m
+[36m│  │  ├─[0m [34mfailingTest()[0m [32m✔[0m
+[36m│  │  └─[0m [34msucceedingTest()[0m [32m✔[0m
+[36m│  ├─[0m [36mA stack[0m [32m✔[0m
+[36m│  │  ├─[0m [36mwhen new[0m [32m✔[0m
+[36m│  │  │  ├─[0m [36mafter pushing an element[0m [32m✔[0m
+[36m│  │  │  │  ├─[0m [34mit is no longer empty[0m [32m✔[0m
+[36m│  │  │  │  ├─[0m [34mreturns the element when popped and is empty[0m [32m✔[0m
+[36m│  │  │  │  └─[0m [34mreturns the element when peeked but remains not empty[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34mis empty[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34mthrows EmptyStackException when popped[0m [32m✔[0m
+[36m│  │  │  └─[0m [34mthrows EmptyStackException when peeked[0m [32m✔[0m
+[36m│  │  └─[0m [34mis instantiated with new Stack()[0m [32m✔[0m
+[36m│  ├─[0m [36mMyFirstJUnitJupiterTests[0m [32m✔[0m
+[36m│  │  └─[0m [34maddition()[0m [32m✔[0m
+[36m│  ├─[0m [36mDocumentationDemo[0m [32m✔[0m
+[36m│  │  └─[0m [34mgenerateDocumentation()[0m [32m✔[0m
+[36m│  ├─[0m [36mAssertionsDemo[0m [32m✔[0m
+[36m│  │  ├─[0m [34mtimeoutNotExceededWithResult()[0m [32m✔[0m
+[36m│  │  ├─[0m [34mstandardAssertions()[0m [32m✔[0m
+[36m│  │  ├─[0m [34mtimeoutNotExceededWithMethod()[0m [32m✔[0m
+[36m│  │  ├─[0m [34mtimeoutNotExceeded()[0m [32m✔[0m
+[36m│  │  ├─[0m [34mdependentAssertions()[0m [32m✔[0m
+[36m│  │  ├─[0m [34mtimeoutExceeded()[0m [32m✔[0m
+[36m│  │  ├─[0m [34mexceptionTesting()[0m [32m✔[0m
+[36m│  │  ├─[0m [34mgroupedAssertions()[0m [32m✔[0m
+[36m│  │  └─[0m [34mtimeoutExceededWithPreemptiveTermination()[0m [32m✔[0m
+[36m│  ├─[0m [36mTempDirectoryDemo[0m [32m✔[0m
+[36m│  │  └─[0m [34mwriteItemsToFile(Path)[0m [32m✔[0m
+[36m│  ├─[0m [36mTestInterfaceDemo[0m [32m✔[0m
+[36m│  │  ├─[0m [36mdynamicTestsForPalindromes()[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34mracecar[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34mradar[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34mmom[0m [32m✔[0m
+[36m│  │  │  └─[0m [34mdad[0m [32m✔[0m
+[36m│  │  └─[0m [34misEqualValue()[0m [32m✔[0m
+[36m│  ├─[0m [36mIgnoredTestsDemo[0m [32m✔[0m
+[36m│  │  ├─[0m [35mtestWillBeIgnored()[0m [35m↷[0m [35mvoid example.IgnoredTestsDemo.testWillBeIgnored() is disabled via @org.junit.Ignore[0m
+[36m│  │  └─[0m [34mtestWillBeExecuted()[0m [32m✔[0m
+[36m│  ├─[0m [36mStandardTests[0m [32m✔[0m
+[36m│  │  ├─[0m [33mabortedTest()[0m [33m■[0m [31mAssumption failed: assumption is not true[0m
+[36m│  │  ├─[0m [35mskippedTest()[0m [35m↷[0m [35mfor demonstration purposes[0m
+[36m│  │  ├─[0m [34mfailingTest()[0m [32m✔[0m
+[36m│  │  └─[0m [34msucceedingTest()[0m [32m✔[0m
+[36m│  ├─[0m [36mTimeoutDemo[0m [32m✔[0m
+[36m│  │  └─[0m [34mfailsIfExecutionTimeExceeds100Milliseconds()[0m [32m✔[0m
+[36m│  ├─[0m [36mEngineTestKitSkippedMethodDemo[0m [32m✔[0m
+[36m│  │  └─[0m [34mverifyJupiterMethodWasSkipped()[0m [32m✔[0m
+[36m│  ├─[0m [36mParameterizedTestDemo[0m [32m✔[0m
+[36m│  │  ├─[0m [36mNullAndEmptySource_1[0m [32m✔[0m
+[36m│  │  │  └─[0m [36mnullEmptyAndBlankStrings(String)[0m [32m✔[0m
+[36m│  │  │     ├─[0m [34m[1] text=null[0m [32m✔[0m
+[36m│  │  │     ├─[0m [34m[2] text=[0m [32m✔[0m
+[36m│  │  │     ├─[0m [34m[3] text= [0m [32m✔[0m
+[36m│  │  │     ├─[0m [34m[4] text=   [0m [32m✔[0m
+[36m│  │  │     ├─[0m [34m[5] text= [0m [32m✔[0m
+[36m│  │  │     └─[0m [34m[6] text= [0m [32m✔[0m
+[36m│  │  ├─[0m [36mNullAndEmptySource_2[0m [32m✔[0m
+[36m│  │  │  └─[0m [36mnullEmptyAndBlankStrings(String)[0m [32m✔[0m
+[36m│  │  │     ├─[0m [34m[1] text=null[0m [32m✔[0m
+[36m│  │  │     ├─[0m [34m[2] text=[0m [32m✔[0m
+[36m│  │  │     ├─[0m [34m[3] text= [0m [32m✔[0m
+[36m│  │  │     ├─[0m [34m[4] text=   [0m [32m✔[0m
+[36m│  │  │     ├─[0m [34m[5] text= [0m [32m✔[0m
+[36m│  │  │     └─[0m [34m[6] text= [0m [32m✔[0m
+[36m│  │  ├─[0m [36mtestWithEnumSourceInclude(ChronoUnit)[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34m[1] unit=Hours[0m [32m✔[0m
+[36m│  │  │  └─[0m [34m[2] unit=Days[0m [32m✔[0m
+[36m│  │  ├─[0m [36mtestWithRegularParameterResolver(String, TestReporter)[0m [32m✔[0m
+[36m│  │  │  └─[0m [34m[1] argument=apple[0m [32m✔[0m
+[36m│  │  │        [0m2020-02-15T11:27:14.429195 [33margument[0m = `[32mapple[0m`
+[36m│  │  ├─[0m [36mtestWithCsvSource(String, int)[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34m[1] fruit=apple, rank=1[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34m[2] fruit=banana, rank=2[0m [32m✔[0m
+[36m│  │  │  └─[0m [34m[3] fruit=lemon, lime, rank=0xF1[0m [32m✔[0m
+[36m│  │  ├─[0m [36mtestWithExplicitJavaTimeConverter(LocalDate)[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34m[1] argument=01.01.2017[0m [32m✔[0m
+[36m│  │  │  └─[0m [34m[2] argument=31.12.2017[0m [32m✔[0m
+[36m│  │  ├─[0m [36mtestWithValueSource(int)[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34m[1] argument=1[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34m[2] argument=2[0m [32m✔[0m
+[36m│  │  │  └─[0m [34m[3] argument=3[0m [32m✔[0m
+[36m│  │  ├─[0m [36mtestWithExplicitArgumentConversion(String)[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34m[1] argument=Nanos[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34m[2] argument=Micros[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34m[3] argument=Millis[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34m[4] argument=Seconds[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34m[5] argument=Minutes[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34m[6] argument=Hours[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34m[7] argument=HalfDays[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34m[8] argument=Days[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34m[9] argument=Weeks[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34m[10] argument=Months[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34m[11] argument=Years[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34m[12] argument=Decades[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34m[13] argument=Centuries[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34m[14] argument=Millennia[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34m[15] argument=Eras[0m [32m✔[0m
+[36m│  │  │  └─[0m [34m[16] argument=Forever[0m [32m✔[0m
+[36m│  │  ├─[0m [36mtestWithEnumSource(TemporalUnit)[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34m[7] unit=HalfDays[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34m[1] unit=Nanos[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34m[2] unit=Micros[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34m[3] unit=Millis[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34m[4] unit=Seconds[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34m[5] unit=Minutes[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34m[13] unit=Centuries[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34m[6] unit=Hours[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34m[8] unit=Days[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34m[9] unit=Weeks[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34m[10] unit=Months[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34m[11] unit=Years[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34m[12] unit=Decades[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34m[14] unit=Millennia[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34m[15] unit=Eras[0m [32m✔[0m
+[36m│  │  │  └─[0m [34m[16] unit=Forever[0m [32m✔[0m
+[36m│  │  ├─[0m [36mtestWithArgumentsAccessor(ArgumentsAccessor)[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34m[1] Jane, Doe, F, 1990-05-20[0m [32m✔[0m
+[36m│  │  │  └─[0m [34m[2] John, Doe, M, 1990-10-22[0m [32m✔[0m
+[36m│  │  ├─[0m [36mtestWithImplicitFallbackArgumentConversion(Book)[0m [32m✔[0m
+[36m│  │  │  └─[0m [34m[1] book=42 Cats[0m [32m✔[0m
+[36m│  │  ├─[0m [36mtestWithArgumentsAggregator(Person)[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34m[1] Jane, Doe, F, 1990-05-20[0m [32m✔[0m
+[36m│  │  │  └─[0m [34m[2] John, Doe, M, 1990-10-22[0m [32m✔[0m
+[36m│  │  ├─[0m [36mtestWithEnumSourceExclude(ChronoUnit)[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34m[1] unit=Nanos[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34m[2] unit=Micros[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34m[3] unit=Millis[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34m[4] unit=Seconds[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34m[5] unit=Minutes[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34m[12] unit=Decades[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34m[6] unit=Hours[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34m[7] unit=HalfDays[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34m[8] unit=Days[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34m[9] unit=Weeks[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34m[10] unit=Months[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34m[11] unit=Years[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34m[13] unit=Centuries[0m [32m✔[0m
+[36m│  │  │  └─[0m [34m[14] unit=Millennia[0m [32m✔[0m
+[36m│  │  ├─[0m [36mtestWithArgumentsSource(String)[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34m[1] argument=apple[0m [32m✔[0m
+[36m│  │  │  └─[0m [34m[2] argument=banana[0m [32m✔[0m
+[36m│  │  ├─[0m [36mtestWithImplicitArgumentConversion(ChronoUnit)[0m [32m✔[0m
+[36m│  │  │  └─[0m [34m[1] argument=SECONDS[0m [32m✔[0m
+[36m│  │  ├─[0m [36mtestWithMultiArgMethodSource(String, int, List)[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34m[1] str=apple, num=1, list=[a, b][0m [32m✔[0m
+[36m│  │  │  └─[0m [34m[2] str=lemon, num=2, list=[x, y][0m [32m✔[0m
+[36m│  │  ├─[0m [36mtestWithEnumSourceRegex(ChronoUnit)[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34m[1] unit=HalfDays[0m [32m✔[0m
+[36m│  │  │  └─[0m [34m[2] unit=Days[0m [32m✔[0m
+[36m│  │  ├─[0m [36mtestWithExplicitLocalMethodSource(String)[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34m[1] argument=apple[0m [32m✔[0m
+[36m│  │  │  └─[0m [34m[2] argument=banana[0m [32m✔[0m
+[36m│  │  ├─[0m [36mDisplay name of container[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34m1 ==> the rank of 'apple' is 1[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34m2 ==> the rank of 'banana' is 2[0m [32m✔[0m
+[36m│  │  │  └─[0m [34m3 ==> the rank of 'lemon, lime' is 3[0m [32m✔[0m
+[36m│  │  ├─[0m [36mtestWithRangeMethodSource(int)[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34m[7] argument=16[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34m[8] argument=17[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34m[9] argument=18[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34m[10] argument=19[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34m[1] argument=10[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34m[2] argument=11[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34m[3] argument=12[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34m[4] argument=13[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34m[5] argument=14[0m [32m✔[0m
+[36m│  │  │  └─[0m [34m[6] argument=15[0m [32m✔[0m
+[36m│  │  ├─[0m [36mtestWithCustomAggregatorAnnotation(Person)[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34m[1] Jane, Doe, F, 1990-05-20[0m [32m✔[0m
+[36m│  │  │  └─[0m [34m[2] John, Doe, M, 1990-10-22[0m [32m✔[0m
+[36m│  │  ├─[0m [36mtestWithDefaultLocalMethodSource(String)[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34m[1] argument=apple[0m [32m✔[0m
+[36m│  │  │  └─[0m [34m[2] argument=banana[0m [32m✔[0m
+[36m│  │  ├─[0m [36mtestWithEnumSourceWithAutoDetection(ChronoUnit)[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34m[7] unit=HalfDays[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34m[8] unit=Days[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34m[9] unit=Weeks[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34m[10] unit=Months[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34m[11] unit=Years[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34m[1] unit=Nanos[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34m[2] unit=Micros[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34m[14] unit=Millennia[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34m[3] unit=Millis[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34m[4] unit=Seconds[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34m[6] unit=Hours[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34m[5] unit=Minutes[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34m[12] unit=Decades[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34m[15] unit=Eras[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34m[16] unit=Forever[0m [32m✔[0m
+[36m│  │  │  └─[0m [34m[13] unit=Centuries[0m [32m✔[0m
+[36m│  │  ├─[0m [36mpalindromes(String)[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34m[1] candidate=racecar[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34m[2] candidate=radar[0m [32m✔[0m
+[36m│  │  │  └─[0m [34m[3] candidate=able was I ere I saw elba[0m [32m✔[0m
+[36m│  │  └─[0m [36mtestWithCsvFileSource(String, int)[0m [32m✔[0m
+[36m│  │     ├─[0m [34m[1] country=Sweden, reference=1[0m [32m✔[0m
+[36m│  │     ├─[0m [34m[3] country=United States of America, reference=3[0m [32m✔[0m
+[36m│  │     └─[0m [34m[2] country=Poland, reference=2[0m [32m✔[0m
+[36m│  ├─[0m [36mTestTemplateDemo[0m [32m✔[0m
+[36m│  │  └─[0m [36mtestTemplate(String)[0m [32m✔[0m
+[36m│  │     ├─[0m [34mapple[0m [32m✔[0m
+[36m│  │     └─[0m [34mbanana[0m [32m✔[0m
+[36m│  ├─[0m [36mDatabaseTestsDemo[0m [32m✔[0m
+[36m│  │  └─[0m [34mtestDatabaseFunctionality()[0m [32m✔[0m
+[36m│  ├─[0m [36mRepeatedTestsDemo[0m [32m✔[0m
+[36m│  │  ├─[0m [36mRepeat![0m [32m✔[0m
+[36m│  │  │  └─[0m [34mRepeat! 1/1[0m [32m✔[0m
+[36m│  │  ├─[0m [36mrepeatedTest()[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34mrepetition 7 of 10[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34mrepetition 8 of 10[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34mrepetition 9 of 10[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34mrepetition 10 of 10[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34mrepetition 1 of 10[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34mrepetition 2 of 10[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34mrepetition 3 of 10[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34mrepetition 4 of 10[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34mrepetition 5 of 10[0m [32m✔[0m
+[36m│  │  │  └─[0m [34mrepetition 6 of 10[0m [32m✔[0m
+[36m│  │  ├─[0m [36mDetails...[0m [32m✔[0m
+[36m│  │  │  └─[0m [34mDetails... :: repetition 1 of 1[0m [32m✔[0m
+[36m│  │  ├─[0m [36mrepeatedTestWithRepetitionInfo(RepetitionInfo)[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34mrepetition 1 of 5[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34mrepetition 2 of 5[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34mrepetition 3 of 5[0m [32m✔[0m
+[36m│  │  │  ├─[0m [34mrepetition 4 of 5[0m [32m✔[0m
+[36m│  │  │  └─[0m [34mrepetition 5 of 5[0m [32m✔[0m
+[36m│  │  └─[0m [36mrepeatedTestInGerman()[0m [32m✔[0m
+[36m│  │     ├─[0m [34mWiederholung 1 von 5[0m [32m✔[0m
+[36m│  │     ├─[0m [34mWiederholung 2 von 5[0m [32m✔[0m
+[36m│  │     ├─[0m [34mWiederholung 3 von 5[0m [32m✔[0m
+[36m│  │     ├─[0m [34mWiederholung 5 von 5[0m [32m✔[0m
+[36m│  │     └─[0m [34mWiederholung 4 von 5[0m [32m✔[0m
+[36m│  ├─[0m [36mTempDirectoryDemo$SharedTempDirectoryDemo[0m [32m✔[0m
+[36m│  │  ├─[0m [34mwriteItemsToFile()[0m [32m✔[0m
+[36m│  │  └─[0m [34manotherTestThatUsesTheSameTempDir()[0m [32m✔[0m
+[36m│  ├─[0m [36mTaggingDemo[0m [32m✔[0m
+[36m│  │  └─[0m [34mtestingTaxCalculation()[0m [32m✔[0m
+[36m│  ├─[0m [36mDisabledTestsDemo[0m [32m✔[0m
+[36m│  │  ├─[0m [35mtestWillBeSkipped()[0m [35m↷[0m [35mDisabled until bug #42 has been resolved[0m
+[36m│  │  └─[0m [34mtestWillBeExecuted()[0m [32m✔[0m
+[36m│  ├─[0m [36mEngineTestKitFailedMethodDemo[0m [32m✔[0m
+[36m│  │  └─[0m [34mverifyJupiterMethodFailed()[0m [32m✔[0m
+[36m│  ├─[0m [36mTestInfo Demo[0m [32m✔[0m
+[36m│  │  ├─[0m [34mtest2()[0m [32m✔[0m
+[36m│  │  └─[0m [34mTEST 1[0m [32m✔[0m
+[36m│  ├─[0m [35mDisabledClassDemo[0m [35m↷[0m [35mDisabled until bug #99 has been fixed[0m
+[36m│  ├─[0m [36mSharedResourcesDemo[0m [32m✔[0m
+[36m│  │  ├─[0m [34mcustomPropertyIsNotSetByDefault()[0m [32m✔[0m
+[36m│  │  ├─[0m [34mcanSetCustomPropertyToBanana()[0m [32m✔[0m
+[36m│  │  └─[0m [34mcanSetCustomPropertyToApple()[0m [32m✔[0m
+[36m│  └─[0m [35mSlowTests[0m [35m↷[0m [35mclass example.SlowTests is @Disabled[0m
+[36m└─[0m [36mJUnit Vintage[0m [32m✔[0m
+[36m   └─[0m [36mJUnit4Tests[0m [32m✔[0m
+[36m      └─[0m [34mstandardJUnit4Test[0m [32m✔[0m
+
+Test run finished after 1744 ms
+[       104 containers found      ]
+[         2 containers skipped    ]
+[       102 containers started    ]
+[         0 containers aborted    ]
+[       102 containers successful ]
+[         0 containers failed     ]
+[       347 tests found           ]
+[        29 tests skipped         ]
+[       318 tests started         ]
+[         3 tests aborted         ]
+[       315 tests successful      ]
+[         0 tests failed          ]
+
+:documentation:test NO-SOURCE
+:platform-tests:test_4_12 FROM-CACHE
+:spotlessMiscCheck
+:spotlessCheck
+:check
+:build
+:spotlessInternalRegisterDependencies UP-TO-DATE
+:documentation:spotlessJava
+:junit-jupiter:spotlessJava
+:junit-jupiter-api:spotlessJava
+:junit-jupiter-engine:spotlessJava
+:junit-jupiter-migrationsupport:spotlessJava
+:junit-jupiter-params:spotlessJava
+:junit-platform-commons:spotlessJava
+:junit-jupiter:spotlessJavaCheck
+:junit-jupiter:spotlessKotlin
+:junit-platform-console:spotlessJava
+:junit-jupiter:spotlessKotlinCheck
+:junit-jupiter:spotlessCheck
+:junit-jupiter:check
+:junit-jupiter:build
+:junit-platform-console-standalone:spotlessJava
+:junit-platform-console-standalone:spotlessJavaCheck
+:junit-platform-console-standalone:spotlessKotlin
+:junit-platform-console-standalone:spotlessKotlinCheck
+:junit-platform-console-standalone:spotlessCheck
+:junit-platform-console-standalone:check
+:junit-platform-console-standalone:build
+:junit-platform-engine:spotlessJava
+:junit-platform-console:spotlessJavaCheck
+:junit-platform-console:spotlessKotlin
+:junit-platform-console:spotlessKotlinCheck
+:junit-platform-console:spotlessCheck
+:junit-platform-console:check
+:junit-platform-console:build
+:junit-platform-launcher:spotlessJava
+:junit-jupiter-migrationsupport:spotlessJavaCheck
+:junit-jupiter-migrationsupport:spotlessKotlin
+:junit-jupiter-migrationsupport:spotlessKotlinCheck
+:junit-jupiter-migrationsupport:spotlessCheck
+:junit-jupiter-migrationsupport:check
+:junit-jupiter-migrationsupport:build
+:junit-platform-reporting:spotlessJava
+:junit-platform-reporting:spotlessJavaCheck
+:junit-platform-reporting:spotlessKotlin
+:junit-platform-reporting:spotlessKotlinCheck
+:junit-platform-reporting:spotlessCheck
+:junit-platform-reporting:check
+:junit-platform-reporting:build
+:junit-platform-runner:spotlessJava
+:junit-platform-runner:spotlessJavaCheck
+:junit-platform-runner:spotlessKotlin
+:junit-platform-runner:spotlessKotlinCheck
+:junit-platform-runner:spotlessCheck
+:junit-platform-runner:check
+:junit-platform-runner:build
+:junit-platform-suite-api:spotlessJava
+:documentation:spotlessJavaCheck
+:documentation:spotlessKotlin
+:junit-platform-suite-api:spotlessJavaCheck
+:junit-platform-suite-api:spotlessKotlin
+:junit-platform-suite-api:spotlessKotlinCheck
+:junit-platform-suite-api:spotlessCheck
+:junit-platform-suite-api:check
+:junit-platform-suite-api:build
+:junit-platform-testkit:spotlessJava
+:junit-platform-commons:spotlessJavaCheck
+:junit-platform-commons:spotlessKotlin
+:junit-platform-commons:spotlessKotlinCheck
+:junit-platform-commons:spotlessCheck
+:junit-platform-commons:check
+:junit-platform-commons:build
+:junit-vintage-engine:spotlessJava
+:junit-platform-testkit:spotlessJavaCheck
+:junit-platform-testkit:spotlessKotlin
+:junit-platform-testkit:spotlessKotlinCheck
+:junit-platform-testkit:spotlessCheck
+:junit-platform-testkit:check
+:junit-platform-testkit:build
+:platform-tests:spotlessJava
+:junit-platform-launcher:spotlessJavaCheck
+:junit-platform-launcher:spotlessKotlin
+:junit-jupiter-params:spotlessJavaCheck
+:junit-jupiter-params:spotlessKotlin
+:junit-platform-launcher:spotlessKotlinCheck
+:junit-platform-launcher:spotlessCheck
+:junit-platform-launcher:check
+:junit-platform-launcher:build
+:platform-tooling-support-tests:spotlessJava
+:junit-platform-engine:spotlessJavaCheck
+:junit-platform-engine:spotlessKotlin
+:junit-platform-engine:spotlessKotlinCheck
+:junit-platform-engine:spotlessCheck
+:junit-platform-engine:check
+:junit-platform-engine:build
+:platform-tooling-support-tests:spotlessJavaCheck
+:platform-tooling-support-tests:spotlessKotlin
+:platform-tooling-support-tests:spotlessKotlinCheck
+:platform-tooling-support-tests:spotlessCheck
+:platform-tooling-support-tests:check
+:platform-tooling-support-tests:build
+:junit-jupiter-api:spotlessJavaCheck
+:junit-jupiter-api:spotlessKotlin
+:junit-vintage-engine:spotlessJavaCheck
+:junit-vintage-engine:spotlessKotlin
+:junit-vintage-engine:spotlessKotlinCheck
+:junit-vintage-engine:spotlessCheck
+:junit-vintage-engine:check
+:junit-vintage-engine:build
+:platform-tests:spotlessJavaCheck
+:platform-tests:spotlessKotlin
+:junit-jupiter-params:spotlessKotlinCheck
+:junit-jupiter-params:spotlessCheck
+:junit-jupiter-params:check
+:junit-jupiter-params:build
+:platform-tests:spotlessKotlinCheck
+:platform-tests:spotlessCheck
+:platform-tests:check
+:platform-tests:build
+:documentation:spotlessKotlinCheck
+:documentation:spotlessCheck
+:documentation:check
+:documentation:build
+:junit-jupiter-api:spotlessKotlinCheck
+:junit-jupiter-api:spotlessCheck
+:junit-jupiter-api:check
+:junit-jupiter-api:build
+:junit-jupiter-engine:spotlessJavaCheck
+:junit-jupiter-engine:spotlessKotlin
+:junit-jupiter-engine:spotlessKotlinCheck
+:junit-jupiter-engine:spotlessCheck
+:junit-jupiter-engine:check
+:junit-jupiter-engine:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 7.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/6.1.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 34s
+233 actionable tasks: 100 executed, 59 from cache, 74 up-to-date
