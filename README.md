@@ -1,6 +1,6 @@
 # RapportFinal
 
-Le rapport Final a été ajouté 
+Le rapport Final a été ajouté sous le nom de Projet Individuel-Final-MGL7460-90_Majed.pdf
 
 # Rapport gitstat:
 
