@@ -1,4 +1,6 @@
-# ProjetFinal
+# RapportFinal
+
+Le rapport Final a été ajouté 
 
 # Rapport gitstat:
 
@@ -6,3 +8,7 @@ Apres avoir cloné le repository sur votre local, lancer le fichier Index.html s
 
 # Resultat de compilation
 Le fichier Console-Log contient le resultat des tests de contsrution de Junit5
+
+# lien Embold 
+
+https://uquamdesj.os.embold.io/gamma#eyJpZCI6MTU4Njc0MDA1MDY1NywicGx1Z2luX2lkIjoicHJvamVjdF9saXN0Iiwib2xkX3BsdWdpbl9pZCI6InByb2plY3RfbGlzdCIsInN1YnN5c3RlbV9pZCI6IiIsInN1YnN5c3RlbV91aWQiOiIiLCJzdWJzeXN0ZW1fbmFtZSI6IiIsInByb2plY3RfbmFtZSI6IiIsInByb2plY3RfaWQiOiIiLCJicmVhZGNydW1iIjp7fSwicmVxdWVzdF9kYXRhIjp7fSwicGx1Z2luX29wdGlvbnMiOnsidmlld09wdGlvbnMiOiJQcm9qZWN0Vmlldy50aWxlcyIsInBsb3R0aW5nT3B0aW9ucyI6IlByb2plY3RMaXN0Lm5hbWUiLCJ0YWdzIjpbIlByb2plY3RMaXN0LmF1dG9tb3RpdmUiLCJQcm9qZWN0TGlzdC5nZXJtYW55IiwiUHJvamVjdExpc3QuaW5kaWEiXX0sImNvbnRleHQiOiJyb290IiwibW9kZSI6ImV4cGxvcmVyIn0=
